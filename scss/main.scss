@@ -1,6 +1,5 @@
 @import "config";
 @import "utilities";
-@import "item_grid";
 
 //General Settings
 * {
@@ -294,6 +293,9 @@ img {
     }
   }
 }
+
+@import "item_grid";
+
 // Contact
 
 #contact {
@@ -375,3 +377,5 @@ img {
     }
   }
 }
+
+@import "media";
