@@ -34,33 +34,41 @@
         <h2 class="section-title">Contact Me</h2>
         <div class="bottop-line"></div>
         <p class="lead">Here is how you can reach me</p>
-        <form>
+        <form method="post" data-netlify-recapatcha="true" data-netlify="true">
           <div class="text-fields">
             <input
               type="text"
               class="text-input name-input"
               placeholder="name"
+              name="name"
             />
             <input
               type="text"
               class="text-input subject-input"
               placeholder="subject"
+              name="subject"
             />
             <input
               type="email"
               class="text-input email-input"
               placeholder="Email Adress"
+              name="email"
             />
             <input
               type="text"
               class="text-input phone-input"
               placeholder="Phone Number"
+              name="phone"
             />
             <textarea
               type="text"
               class="tex-input message-input"
               placeholder="Enter Message..."
+              name="message"
             ></textarea>
+            <div class="my-2">
+              <div data-netify-recaptcha="true"></div>
+            </div>
           </div>
           <button class="btn-dark" type="submit">Submit</button>
         </form>
