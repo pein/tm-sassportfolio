@@ -23,7 +23,7 @@
     color: #333;
     background-color: $light-color;
   }
-  &-main {
+  &-dark {
     @extend %btn-shared;
     color: #f4f4f4;
     background-color: $dark-color;
